@@ -48,14 +48,13 @@ and line key_frames_interval=12
 (1 sec, the interval should be 24.)
 
 2. Why my own video does not work?
-step 1: check if your browser support hls.js by using interface Hls.isSupported(). 
+    . check if your browser support hls.js by using interface Hls.isSupported(). 
+    (You can check it in the file test.html.)
 
-        You can check it in the file test.html.
-
-step 2: make sure your m3u8 file path is correct.
-
-        for example, in my enviroment, I put all ts files in the same path, so in m3u8 file, just write the file name 720p.m3u8 in fule playlist.m3u8
-        you can also check your path in the console through opening the inspect implement tool.
-        if your path is wrong, console will report the errors.
+    . make sure your m3u8 file path is correct.
+    for example, in my enviroment, I put all ts files in the same path, so in m3u8 file,
+    just write the file name 720p.m3u8 in fule playlist.m3u8
+    you can also check your path in the console through opening the inspect implement tool.
+    if your path is wrong, console will report the errors.
         
 
