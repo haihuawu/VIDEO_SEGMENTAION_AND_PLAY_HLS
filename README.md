@@ -48,6 +48,7 @@ and line key_frames_interval=12
 (1 sec, the interval should be 24.)
 
 2. Why my own video does not work?
+
     . check if your browser support hls.js by using interface Hls.isSupported(). 
     (You can check it in the file test.html.)
 
